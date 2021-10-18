@@ -1,5 +1,5 @@
-# Prueba2
-
+#   eduardo.ruizesparza@estudiante.uacm.edu.mx
+Integracion desde pycharm Educacional edition 17/10/2021
 
 
 
