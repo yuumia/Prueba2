@@ -5,13 +5,13 @@ class vuelo:
     def getDisponibles(self):
         return self.capacidad -len(self.pasajeros)
     def addPasajeros(self,nombre):
-        if self.pasajeros.append(nombre)
+        if self.pasajeros.append(nombre):
             self.pasajeros.append(nombre)
             return True
         else:
             return False
         ###############################
-        if not self .getDisponible
+        if not self .getDisponible:
             return False
         self.addPasajero(nombre)
         return True
