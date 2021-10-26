@@ -17,7 +17,7 @@ def indice(request):
     return render(request, 'Principal/Templates/Principal/index.html')
 
 def indicePARAM(request, name):
-    return render(request, 'principal/saludos.html',{'name':nombre.capitalize()})
+    return render(request, 'principal/saludos.html',{'name': nombre.capitalize()})
 
 def index(request):
     return render(request,'Principal/index.html',{

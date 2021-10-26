@@ -6,6 +6,10 @@
 </head>
 <title>¿es viernes?</title>
 <body>
-<h1>{(esViernes)}</h1>
+{% if esViernes %}
+    <h1>{(esViernes)}</h1>
+    {% else %}
+<h1>{(No)}</h1>
+    {% endif %}
 </body>
 </html>
